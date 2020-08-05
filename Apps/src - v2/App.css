@@ -1,0 +1,39 @@
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 15px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background: dodgerblue;
+  border-radius: 20px;
+  transition: 0.25s;
+  filter: opacity(0.6);
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+button:hover, button.active {
+  filter: opacity(1);
+}
+
+.box {
+  padding: 1em;
+  border: 1px solid #666;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
