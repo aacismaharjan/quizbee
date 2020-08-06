@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { fetchData } from '../api/QuestionBank'
-import { QuestionBox, SampleQuestionBox } from './QuestionBox'
+import { QuestionBox } from './QuestionBox'
 import Result from './Result'
 import Loading from "./Loading"
 

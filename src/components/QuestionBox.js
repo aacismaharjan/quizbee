@@ -1,15 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Loading from "./Loading"
-
-export const SampleQuestionBox = (props) => {
-  return (
-    <div className="card mt-3">
-      <div className="card-body">
-        <Loading />
-      </div>
-    </div >
-  );
-}
 
 export const QuestionBox = (props) => {
   const [answers, setAnswers] = useState(props.options)
